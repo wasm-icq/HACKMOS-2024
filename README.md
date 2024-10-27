@@ -61,7 +61,15 @@ Within Neutron, our Data Hub contract manages interchain queries, interacting wi
 
 ### Demo
 
-todo
+![](resources/slides/Slide7.jpg)
+
+Here’s a quick demonstration of how our DataHub query process works.
+
+1. First, we initiate a DataHub query from the Initial Chain using a Wasm contract to send a balance request.
+2. Next, Neutron processes the ICQ response and relays it to our DataHub contract, ensuring data is transferred seamlessly.
+3. Finally, we confirm the data receipt on the Initial Chain, showing the requested balance information is accurately received and verified.
+
+This flow highlights how we handle cross-chain data retrieval without requiring modules on the participating chains.
 
 ## Use cases
 
